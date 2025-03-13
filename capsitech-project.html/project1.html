@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CT-Design-6t</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-4"> 
+    <home>
+        <header class="sticky top-0 shadow-md bg-white z-50 md:-m-4 sm:-m-4">
+            <!-- Wrapper to ensure peer works correctly -->
+            <div class="relative">
+                <!-- Hidden checkbox to toggle menu -->
+                <input type="checkbox" id="menu-toggle" class="hidden peer">
+        
+                <nav class="px-4 lg:px-6 py-2.5">
+                    <div class="flex flex-nowrap justify-between items-center mx-auto max-w-screen-xl">
+                        <div class="text-4xl font-serif p-0.5 lg:ml-6 lg:pr-6 hover:cursor-pointer">
+                            INTERIOR<br><t class="text-[#B58569]">DESIGN</t>
+                        </div>
+                        <div class="flex items-center lg:order-2">
+                            <!-- Label linked to the checkbox -->
+                            <label for="menu-toggle" class="lg:hidden text-b cursor-pointer text-4xl border-2 bg-[#B58569] p-2">
+                                ☰
+                            </label>
+                        </div>
+                        <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
+                            <ul class="flex flex-col mt-2 lg:flex-row lg:space-x-8 lg:mr-2 lg:pl-14 lg:gap-4 md:flex-wrap">
+                                <li><p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="#home">Home</a></p></li>
+                                <li><p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="#service">Service</a></p></li>
+                                <li><p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="#shopping">Products</a></p></li>
+                                <li><p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="#about">About us</a></p></li>
+                                <li><p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="contact.html">Contact us</a></p></li>
+                                <li class="lg:pl-48">
+                                    <button class="h-8 w-20 bg-[#B58569] text-white font-bold rounded hover:bg-gray-400">
+                                        <a href="contact.html#login">Login</a>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>   
+                    </div>
+                </nav>
+        
+                <!-- Mobile Menu (Now positioned relative to the header, not fixed) -->
+                <div class="relative top-full left-1/2 transform -translate-x-1/2 w-60 hidden peer-checked:flex flex-col items-center space-y-4 py-4 md:hidden lg:hidden">
+                    <p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="#home">Home</a></p>
+                    <p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="#service">Service</a></p>
+                    <p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="#shopping">Products</a></p>
+                    <p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="#about">About us</a></p>
+                    <p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="contact.html">Contact us</a></p>
+                    <button class="h-8 w-20 bg-[#B58569] text-white font-bold rounded hover:bg-gray-400">
+                        <a href="contact.html#login">Login</a>
+                    </button>
+                </div>
+            </div>
+        </header>
+    <div class="justify-center text-center mt-12 mb-7 p-10" id="home">
+    <div class="text-6xl font-extrabold hover:cursor-pointer hover:font-serif" id="top">
+        Fit your home with high end<br>luxury Interior design
+    </div> 
+    <div class="text-2xl font-semibold text-gray-600 pt-7 hover:cursor-pointer hover:text-[#B58569]">
+        Checkout interior Design's new best in Design book,featuring unique design stories and<br>project from some of the most influential design-thinker's. </div>
+   </div>
+<section>
+    <div class="">
+    <div class="flex items-center justify-center">
+        <button class="h-14 w-40 bg-[#B58569] m-2 text-white font-bold rounded-2xl hover:bg-gray-400">
+            Shopping Now
+          </button>
+          <button class="h-14 w-40 bg-[#B58569] m-2 text-white font-bold rounded-2xl hover:bg-gray-400">Call us</button>
+    </div>
+    <div class="flex md:flex-row items-center flex-wrap justify-center gap-5  relative-block border-b-8 border-[#B58569] container mx-auto pt-4">
+        <img src="interior1.jpeg" alt="Placeholder Image" class="w-72 h-96 rounded-tl-full hover:cursor-pointer transition duration-300 hover:grayscale lg:w-[397px] lg:h-[470px] lg:rounded-tl-[200px]">
+        <img src="interior2.jpeg" alt="Placeholder Image" class="w-72 h-96 hover:cursor-pointer transition duration-300 hover:grayscale lg:w-[397px] lg:h-[470px]">
+        <img src="interior3.jpeg" alt="Placeholder Image" class="w-72 h-96 rounded-tr-full hover:cursor-pointer transition duration-300 hover:grayscale lg:w-[397px] lg:h-[470px] lg:rounded-tr-[200px]">
+    </div>
+    </div>
+    <br><br>
+    <div class="flex flex-wrap items-center lg:justify-evenly justify-center gap-10 lg:gap-44 md:gap-16 p-10 container mx-auto">
+        <div class="flex flex-col items-center md:flex-row gap-4 lg:text-start text-center">
+            <img src="shappiing.svg" alt="Shipping Icon" class="w-14 h-14 hover:cursor-pointer">
+            <div>
+                <b class="hover:cursor-pointer hover:font-extrabold">Free Shipping</b><br>
+                <p class="text-gray-600 hover:cursor-pointer hover:text-[#B58569]">No charge for each delivery</p>
+            </div>
+        </div>
+        <div class="flex flex-col items-center md:flex-row gap-4 lg:text-start text-center">
+            <img src="payment.svg" alt="Payment Icon" class="w-14 h-14 hover:cursor-pointer">
+            <div>
+                <b class="hover:cursor-pointer hover:font-extrabold">Quick Payment</b><br>
+                <p class="text-gray-600 hover:cursor-pointer hover:text-[#B58569]">100% secure payment</p>
+            </div>
+        </div>
+        <div class="flex flex-col items-center md:flex-row gap-4 lg:text-start text-center">
+            <img src="support.svg" alt="Support Icon" class="w-14 h-14 hover:cursor-pointer">
+            <div>
+                <b class="hover:cursor-pointer hover:font-extrabold">24/7 Support</b><br>
+                <p class="text-gray-600 hover:cursor-pointer hover:text-[#B58569]">Quick support</p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="flex items-center justify-center text-justify container mx-auto mb-20">
+    <div class="flex flex-wrap items-center justify-center gap-4 md:items-center sm:justify-center w-full ml-4 lg:-ml-96">
+        <img src="interior7.jpeg" alt="Placeholder Image" class="w-60 h-80 rounded-lg hover:cursor-pointer transition duration-300 hover:grayscale lg:w-[281px] lg:h-[381px]">
+        <div class="flex flex-col items-center gap-4">
+            <img src="interior8.jpeg" alt="Placeholder Image" class="w-60 h-80 rounded-lg hover:cursor-pointer transition duration-300 hover:grayscale lg:w-[281px] lg:h-[381px]">
+            <img src="interior9.jpeg" alt="Placeholder Image" class="w-60 h-80 rounded-lg hover:cursor-pointer transition duration-300 hover:grayscale lg:w-[281px] lg:h-[381px]">
+        </div>
+        <img src="interior10.jpeg" alt="Placeholder Image" class="w-60 h-80 rounded-lg hover:cursor-pointer transition duration-300 hover:grayscale lg:w-[281px] lg:h-[381px]">
+        <div class="text-justify px-10 hover:cursor-pointer lg:-mr-44 py-10">
+            <h1 class="text-4xl font-bold hover:font-extrabold">We Provide You The Best<br>Furnitures</h1>
+            <br>
+            <h4 class="text-gray-600 hover:text-[#B58569] text-xl">Designers craft spaces that anticipate our needs and appeal<br>to our emotions while pulling from a broad set of skills and
+            <br>techinal knowlwdge.Interior design has changed<br>dramatically.</h4>
+            <br>
+            <div class="flex text-center gap-8">
+                <div><t class="text-4xl text-[#B58569] font-semibold hover:font-bold hover:text-[#B58569]">5K+</t><br><p class="hover:text-[#B58569]">Products</p></div>
+                <div><t class="text-4xl text-[#B58569] font-semibold hover:font-bold hover:text-[#B58569]">1000+</t><br><p class="hover:text-[#B58569]">Happy customers</p></div>
+                <div><t class="text-4xl text-[#B58569] font-semibold hover:font-bold hover:text-[#B58569]">65+</t><br><p class="hover:text-[#B58569]">Award Wining</p></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br><br>
+    <div class="text-center" id="service">
+        <h2 class="text-5xl font-semibold hover:font-bold hover:cursor-pointer">Service for your convenience</h2>
+    </div>
+    <br>
+    <div class="flex flex-wrap justify-evenly items-center container mx-auto lg:mt-10 mt-6 lg:gap-20 gap-6 p-10">
+        <div class="flex flex-col lg:items-start lg:text-start items-center text-center gap-2 mt-4">
+            <img src="service.svg" alt="Placeholder Image" class="hover:cursor-pointer">
+            <div>
+            <b class="font-bold text-2xl hover:font-extrabold hover:cursor-pointer">Interior design</b>
+            <p class="text-gray-600 text-xl hover:text-[#B58569] hover:cursor-pointer">Textiles,materials,color,space<br>planinig,sustainabilty,and<br>more</p>
+            </div>
+        </div>
+        <div class="flex flex-col lg:items-start lg:text-start items-center text-center gap-2 mt-4">
+            <img src="furniture.svg" alt="Placeholder Image" class="hover:cursor-pointer">
+            <div>
+            <b class="font-bold text-2xl hover:font-extrabold hover:cursor-pointer">Furnitures</b>
+            <p class="text-gray-600 text-xl hover:text-[#B58569] hover:cursor-pointer">Software applications for 2D & 3D<br>computer-aided design (CAD) and<br>building information modeling<br>(BIM)</p>
+            </div>
+        </div>
+        <div class="flex flex-col lg:items-start lg:text-start items-center text-center gap-2 mt-4">
+            <img src="Delivery.svg" alt="Placeholder Image" class="hover:cursor-pointer">
+            <div>
+            <b class="font-bold text-2xl hover:font-extrabold hover:cursor-pointer">Free Delivery</b>
+            <p class="text-gray-600 text-xl hover:text-[#B58569] hover:cursor-pointer">Structural requirements,health<br>and safety issues, and buildiing<br>codes</p>
+            </div>
+        </div>
+    </div>     
+    <br><br><br><br>
+    <div class="text-center">
+        <h2 class="text-5xl font-semibold hover:font-bold hover:cursor-pointer" id="shopping">Shop from category</h2>
+    </div>
+    <div class="flex flex-wrap justify-center items-center container mx-auto mt-8 mb-8">
+        <button class="h-12 w-40 bg-gray-400 m-2 text-white font-bold rounded-xl hover:bg-[#B58569]">
+            All Furnitures
+          </button>
+          <button class="h-12 w-40 bg-gray-400 m-2 text-white font-bold rounded-xl hover:bg-[#B58569]">
+            Bed Room
+          </button>
+          <button class="h-12 w-40 bg-gray-400 m-2 text-white font-bold rounded-xl hover:bg-[#B58569]">
+            Living Room
+          </button>
+          <button class="h-12 w-40 bg-gray-400 m-2 text-white font-bold rounded-xl hover:bg-[#B58569]">
+            Dininig
+          </button>
+          <button class="h-12 w-40 bg-gray-400 m-2 text-white font-bold rounded-xl hover:bg-[#B58569]">
+            Home Office
+          </button>
+          <button class="h-12 w-40 bg-gray-400 m-2 text-white font-bold rounded-xl hover:bg-[#B58569]">
+            More
+          </button>
+    </div>
+    <br>
+    <div class="flex flex-wrap justify-center text-center gap-4 container mx-auto mb-16 lg:gap-8">
+        <div class="rounded-lg shadow-lg ml-4">
+            <img src="interior14.jpeg" alt="Placeholder Image" class="w-60 h-80 mx-auto rounded-t-lg hover:cursor-pointer transition duration-300 hover:grayscale lg:w-[272px] lg:h-[381px]">
+            <p class="mt-2 hover:cursor-pointer hover:text-[#B58569]">Living room coach<br><h4 class="font-semibold text-[#B58569]">100.00$</h4></p>
+        </div>
+        <div class="rounded-lg shadow-lg ml-4">
+            <img src="interior15.jpeg" alt="Placeholder Image" class="w-60 h-80 rounded-t-lg hover:cursor-pointer transition duration-300 hover:grayscale lg:w-[272px] lg:h-[381px]">
+            <p class="mt-2 hover:cursor-pointer hover:text-[#B58569]">Living room coach<br><h4 class="font-semibold text-[#B58569]">100.00$</h4></p>
+        </div>
+        <div class="rounded-lg shadow-lg ml-4">
+            <img src="interior16.jpeg" alt="Placeholder Image" class="w-60 h-80 rounded-t-lg hover:cursor-pointer transition duration-300 hover:grayscale lg:w-[272px] lg:h-[381px]">
+            <p class="mt-2 hover:cursor-pointer hover:text-[#B58569]">Living room coach<br><h4 class="font-semibold text-[#B58569]">100.00$</h4></p>
+        </div>
+        <div class="rounded-lg shadow-lg ml-4">
+            <img src="interior17.jpeg" alt="Placeholder Image" class="w-60 h-80 rounded-t-lg hover:cursor-pointer transition duration-300 hover:grayscale lg:w-[272px] lg:h-[381px]">
+            <p class="mt-2 hover:cursor-pointer hover:text-[#B58569]">Living room coach<br><h4 class="font-semibold text-[#B58569]">100.00$</h4></p>
+        </div>        
+    </div>
+    <br><br><br><br>
+    <div class="flex flex-col lg:flex-row lg:justify-evenly md:justify-center sm:justify-start items-center gap-20 container mx-auto mb-16">
+        <div class="text-justify items-center ml-6">
+            <h1 class="text-5xl font-bold hover:font-extrabold hover:cursor-pointer">Organic Living<br>room coach</h1>
+            <br>
+            <h4 class="text-gray-600 font-semibold hover:cursor-pointer hover:text-[#B58569]">Today,interior designer works with contractors,<br>architects,engineers,craftsmen,furniture dealers,and<br>bussiness and home owners.To become a successful<br>interior designer.</h4>
+            <br>
+            <h1 class="text-5xl font-bold hover:font-extrabold hover:cursor-pointer">105.99<t class="text-[#B58569]">$</t></h1>
+            <br>
+            <h4 class="italic text-gray-600 font-semibold hover:cursor-pointer hover:text-[#B58569]">you need well-rounded education<br>and the skills to work with in many</h4>
+            <br>
+            <h4><t class="text-[#FFBC10] text-4xl hover:cursor-pointer">&#9733 &#9733 &#9733 &#9733 </t> <t class="text-gray-400 text-4xl">&#9733</t> <t class="text-2xl text-gray-600 hover:cursor-pointer hover:text-[#B58569]">4.0 raitng (120 reviews)</t></h4>            
+        </div>
+        <div class="ml-4">
+            <img src="interior18.jpeg" alt="Placeholder Image" class="w-96 h-auto rounded-lg hover:cursor-pointer transition duration-300 hover:grayscale items-center lg:w-[569px] lg:h-[697px]">
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="flex flex-col lg:flex-row lg:justify-evenly md:justify-center sm:justify-items-start items-center gap-20 container mx-auto mb-16">
+        <div class="ml-4">
+            <img src="interior19.jpeg" alt="Placeholder Image" class="w-96 h-auto rounded-lg hover:cursor-pointer transition duration-300 hover:grayscale lg:w-[569px] lg:h-[697px]">
+        </div>
+        <div class="text-justify ml-4">
+            <h1 class="text-5xl font-bold hover:cursor-pointer hover:font-extrabold">Why Choose Interio</h1>
+            <br><br>
+            <t class="text-gray-600 hover:cursor-pointer hover:text-[#B58569]">
+                With its strong professional focus,a New York School of<br>Interior Design education gives You access to internships
+            </t>
+            <br><br>
+            <ol class="list-decimal pl-5">
+                <li class=""><t class="text-2xl font-bold hover:cursor-pointer hover:font-extrabold">High Quality Home Furnitures</t><br><br>
+                    <t class="text-gray-600 hover:cursor-pointer hover:text-[#B58569]">Complete your design journey and get unwavering<br>support from our dedicated care team.</t></li><br>
+                <li class=""><t class="text-2xl font-bold hover:cursor-pointer hover:font-extrabold">Unique Designs</t><br><br>
+                <t class="text-gray-600 hover:cursor-pointer hover:text-[#B58569]">Explore design ideas and co-create your dream home <br>with our experienced designers.</t></li><br>
+                <li class=""><t class="text-2xl font-bold hover:cursor-pointer hover:font-extrabold">Lowest Price List</t><br><br>
+                <t class="text-gray-600 hover:cursor-pointer hover:text-[#B58569]">Get beautiful interiors for your new home in just 45 days.<br>Thats our delivery guarantee.</t></li>
+              </ol>
+        </div>
+    </div>
+    <br><br><br>
+       <div class="flex items-center lg:justify-evenly md:justify-center sm:justify-start container mx-auto lg:gap-96 md:gap-0 sm:gap-0">
+        <div class="lg:pr-10 lg:-ml-2">
+            <h1 class="text-4xl font-bold hover:cursor-pointer hover:font-extrabold">Costumer Opinions</h1>
+        <br>
+        <t class="text-gray-600 hover:cursor-pointer hover:text-[#B58569]">Costumer evaluations are what matters most to us,so we prefer when requesting any<br>
+        service through us to send a message to costumers to make an evaluation of our services.</t>
+    </div>  
+    <div>
+    </div>
+    </div>
+    <br><br>
+    <div class="text-justify flex flex-wrap lg:justify-evenly justify-center items-center gap-20 m-10 mb-10 container mx-auto">
+    <div class="ml-4 lg:-ml-12">
+        <img src="interior20.jpeg" alt="Placeholder Image" class="w-96 h-auto hover:cursor-pointer transition duration-300 hover:grayscale lg:w-[504] lg:h-[576]">
+    </div>
+    <div class="ml-4 lg:-mr-12">
+        <h1><t class="text-4xl font-bold hover:cursor-pointer hover:font-extrabold">Mohammed Ali</t><br><t class="text-[#FFBC10] text-4xl">&#9733 &#9733 &#9733 &#9733 </t><t class="text-gray-400 text-4xl">&#9733</t><br>
+        <br><t class="text-gray-600 text-xl hover:cursor-pointer hover:text-[#B58569]">Lorem ipsum dolor sit, amet consectetur adipisicing elit.felis<br>tortor amet quam eget nunc.Vivera tincidunt magna nisl.<br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit.felis<br>tortor amet quam eget nunc.Vivera tincidunt magna nisl.
+        </t></h1>
+        <br><br>
+        <div class="text-right">
+            <button class="h-12 w-12 bg-gray-400 m-2 text-white font-bold rounded-xl hover:bg-[#B58569]">
+                <
+              </button>
+              <button class="h-12 w-12 bg-gray-400 m-2 text-white font-bold rounded-xl hover:bg-[#B58569]">
+                >
+              </button>
+            </div>
+        </div>        
+    </div>
+    <br><br>
+    <div class="flex items-center lg:justify-evenly md:justify-center sm:justify-start justify-center container mx-auto mb-16 mt-20">
+        <div class="text-justify flex items-center justify-between gap-10 bg-[#5A8251] p-10 rounded-3xl sm:flex-row flex-col w-10/12 h-auto lg:w-[1200px] lg:h-[300px]">
+            <div class="text-white">
+                <t class="text-4xl font-bold">Grab Your 20% Discount</t><br><br><t>Lorem ipsum dolor sit, amet consectetur adipisicing elit.felistortor<br>amet quam eget nunc.Vivera tincidunt magna nisl.</t></h1>
+            </div>
+            <br>
+            <div>
+                <button class="h-12 w-40 bg-gray-400 m-2 text-white font-bold rounded-xl hover:bg-slate-400">
+                    Shopping Now
+                  </button>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="flex items-center justify-center text-center bg-[#F3F3F3] container mx-auto mt-20 mb-10" id="about">
+        <div class="w-full h-auto p-10 ml-4">
+            <div class="mt-10 pb-10">
+                <h2 class="text-2xl font-bold">Over 32+ companies Trusted on us</h2>
+            </div>
+            <div class="flex flex-wrap items-center lg:justify-evenly justify-center mb-10 gap-10">
+                <h1 class=""><img src="Layer 1.svg" alt=""></h1>
+                <h1 class=""><img src="icrave 1.svg" alt=""></h1>
+                <h1 class=""><img src="uber 1.svg" alt=""></h1>
+                <h1 class=""><img src="planforce - Copy.svg" alt=""></h1>
+            </div>
+        </div>
+    </div>
+</section>
+    <br><br>
+    <footer class="bg-white">
+        <div class="container mx-auto px-6 py-10 max-w-screen-xl">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 lg:gap-16 text-gray-700 text-center sm:text-left">
+                <!-- Brand Section -->
+                <div class="flex flex-col items-center sm:items-start">
+                    <h1 class="text-4xl lg:text-5xl font-serif hover:cursor-pointer">
+                        <span class="text-black">INTERIOR</span><br><span class="text-[#B58569]">DESIGN</span>
+                    </h1>
+                    <p class="text-[#6F6F6F] mt-4 hover:cursor-pointer hover:text-[#B58569]">
+                        170 East 70th Street<br>New York, NY N10021
+                    </p>
+                        <br>
+                    <!-- Responsive Input and Button -->
+                    <div class="flex flex-col lg:flex-row items-center gap-3 mt-6 w-full max-w-lg">
+                        <input type="email" class="border p-3 rounded-md lg:w-fit w-full focus:outline-none focus:ring-2 focus:ring-[#B58569] text-lg border-[#916AE3]" placeholder="user@example.com">
+                        <button class="h-12 w-full lg:w-auto px-6 bg-[#B58569] text-white font-bold rounded-md hover:bg-gray-400 transition duration-300">
+                            SUBSCRIBE
+                        </button>
+                    </div>
+                </div>
+    
+                <!-- Quick Links -->
+                <div class="flex flex-col items-center sm:items-start lg:pl-24 lg:ml-6">
+                    <h2 class="text-xl font-bold hover:cursor-pointer hover:font-extrabold">Quick Links</h2>
+                    <ul class="space-y-5 mt-6">
+                        <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Products</a></li>
+                        <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Category</a></li>
+                        <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Purchases</a></li>
+                        <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Store</a></li>
+                    </ul>
+                </div>
+    
+                <!-- The Company -->
+                <div class="flex flex-col items-center sm:items-start lg:pl-12">
+                    <h2 class="text-xl font-bold hover:cursor-pointer hover:font-extrabold">The Company</h2>
+                    <ul class="space-y-5 mt-6">
+                        <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">About</a></li>
+                        <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Contact</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Resources -->
+                <div class="flex flex-col items-center sm:items-start">
+                    <h2 class="text-xl font-bold hover:cursor-pointer hover:font-extrabold">Resources</h2>
+                    <ul class="space-y-5 mt-6">
+                        <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Online Payment</a></li>
+                        <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+         <br><br>
+        <!-- Footer Bottom -->
+        <div class="bg-[#B58569] text-white py-6">
+            <div class="container mx-auto max-w-screen-xl flex flex-col sm:flex-row items-center justify-between px-6">
+                <p class="text-sm text-center sm:text-left hover:cursor-pointer hover:text-black">2022® INTERIOR DESIGN .All right reserved</p>
+                <div class="flex space-x-6 mt-4 sm:mt-0">
+                    <a href="https://www.twitter.com/" class="hover:opacity-75 transition">
+                        <img src="Twitter.svg" alt="Twitter" class="w-6 h-6 hover:cursor-pointer">
+                    </a>
+                    <a href="https://www.instagram.com/capsitech_limited/" class="hover:opacity-75 transition">
+                        <img src="instagram.svg" alt="Instagram" class="w-6 h-6 hover:cursor-pointer">
+                    </a>
+                    <a href="https://www.facebook.com/Capsitechltd/" class="hover:opacity-75 transition">
+                        <img src="face.svg" alt="Facebook" class="w-6 h-6 hover:cursor-pointer">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+        </home>
+        <br><br>
+        <div class="flex justify-center">
+            <button class="h-10 w-40 bg-[#B58569] border-2 rounded-2xl text-white hover:text-black"><a href="#top">MOVE TO TOP</a></button>
+        </div>
+        <br><br>
+</body> 
+</html>

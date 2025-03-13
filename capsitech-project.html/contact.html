@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<header class="sticky top-0 shadow-md bg-white z-50 md:-m-4 sm:-m-4">
+    <div class="relative">
+        <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+        <nav class="px-4 lg:px-6 py-2.5 container mx-auto border-b-8 border-[#B58569]">
+            <div class="flex flex-nowrap justify-between items-center mx-auto max-w-screen-xl">
+                <div class="text-4xl font-serif p-0.5 lg:ml-6 lg:pr-6 hover:cursor-pointer">
+                    INTERIOR<br><t class="text-[#B58569]">DESIGN</t>
+                </div>
+                <div class="flex items-center lg:order-2">
+                    <label for="menu-toggle" class="lg:hidden text-b cursor-pointer text-4xl border-2 bg-[#B58569] p-2">
+                        ☰
+                    </label>
+                </div>
+                <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
+                    <ul class="flex flex-col mt-2 lg:flex-row lg:space-x-8 lg:mr-2 lg:pl-14 lg:gap-4 md:flex-wrap">
+                        <li><p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="project1.html">Home</a></p></li>
+                        <li><p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="project1.html#service">Service</a></p></li>
+                        <li><p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="project1.html#shopping">Products</a></p></li>
+                        <li><p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="project1.html#about">About us</a></p></li>
+                        <li><p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="contact.html">Contact us</a></p></li>
+                        <li class="lg:pl-48">
+                            <button class="h-8 w-20 bg-[#B58569] text-white font-bold rounded hover:bg-gray-400">
+                                <a href="#login">Login</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>   
+            </div>
+        </nav>
+
+        <div class="relative top-full left-1/2 transform -translate-x-1/2 w-60 hidden peer-checked:flex flex-col items-center space-y-4 py-4 md:hidden lg:hidden">
+            <p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="project1.html#home">Home</a></p>
+            <p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="project1.html#service">Service</a></p>
+            <p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="project1.html#shopping">Products</a></p>
+            <p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="project1.html#about">About us</a></p>
+            <p class="text-2xl text-[#626262] hover:text-[#B58569] hover:underline"><a href="contact.html">Contact us</a></p>
+            <button class="h-8 w-20 bg-[#B58569] text-white font-bold rounded hover:bg-gray-400">
+                <a href="#login">Login</a>
+            </button>
+        </div>
+    </div>
+</header>
+<br>
+<div class="flex flex-wrap items-center lg:justify-center md:justify-start sm:justify-start container mx-auto mt-10">
+<div class="flex items-center container mx-auto mt-16 mb-8 lg:ml-40 md:ml-10 sm:ml-8">
+  <div class="w-16 h-1 bg-black md:ml-4"></div>
+  <span class="ml-4 font-bold text-black text-6xl hover:cursor-pointer hover:font-extrabold">Contact us</span>
+  </div>
+  <div class="lg:gap-20"></div>
+</div>
+<br><br>
+  <div class="flex flex-wrap lg:justify-evenly justify-center items-center gap-14 p-4 container mx-auto mb-16">
+  <div class="flex lg:flex-row flex-col lg:text-start lg:items-start text-center items-center space-x-4 lg:-ml-14">
+      <img src="address1.svg" alt="Placeholder Image" class="hover:cursor-pointer">
+      <div>
+      <b class="text-2xl hover:cursor-pointer hover:font-extrabold">Address</b><br>
+      <t class="text-xl text-gray-600 hover:cursor-pointer hover:text-[#B58569]">Jaipur Rajasthan INDIA<br>Pin 342087</t>
+    </div>
+  </div>
+  <div class="flex lg:flex-row flex-col lg:text-start lg:items-start text-center items-center space-x-4">
+      <img src="phone1.svg" alt="Placeholder Image" class="hover:cursor-pointer">
+      <div>
+        <b class="text-2xl hover:cursor-pointer hover:font-extrabold">Call us</b><br><t class="text-xl text-gray-600 hover:cursor-pointer hover:text-[#B58569]">+91 9876543210</t>
+    </div>
+  </div>
+  <div class="flex lg:flex-row flex-col lg:text-start lg:items-start text-center items-center space-x-4 lg:-mr-20">
+      <img src="email1.svg" alt="Placeholder Image" class="hover:cursor-pointer">
+      <div><b class="text-2xl hover:cursor-pointer hover:font-extrabold">Email us</b><br><t class="text-xl text-gray-600 hover:cursor-pointer hover:text-[#B58569]">info@test.com</t>
+    </div>
+  </div>
+  </div>
+  <br><br>
+  <div class="bg-gray-100 flex justify-center items-center p-4 container mx-auto">
+    <div class="w-full max-w-5xl lg:p-20 p-4">
+        <h1 class="text-4xl lg:text-5xl font-bold text-center mb-6 pb-10">Get in touch with us. <br>
+            We're here to assist you.</h1>
+        <form id="contactForm" class="bg-white p-14 rounded-lg shadow-md w-full lg:rounded-[30px]">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-14 relative">
+                <div class="relative">
+                    <label class="block text-sm font-medium text-[#808080]">Full name</label>
+                    <input type="text" id="fullname" class="w-full p-2 border-b-2 border-gray-400 focus:border-black outline-none" required>
+                </div>
+                <div class="relative">
+                    <label class="block text-sm font-medium text-[#808080]">Email Address</label>
+                      <input type="email" id="email" class="w-full p-2 border-b-2 border-gray-400 focus:border-black outline-none" required>
+                </div>
+                <div class="relative">
+                    <label class="block text-sm font-medium text-[#808080]">Phone number</label>
+                      <input type="tel" id="phone" class="w-full p-2 border-b-2 border-gray-400 focus:border-black outline-none" required>
+                </div>
+                <div class="relative">
+                    <label class="block text-sm font-medium text-[#808080]">Date of Birth</label>
+                    <input type="date" id="dob" class="lg:w-full sm:w-3/4 md:w-2/3 p-2 border-b-2 border-gray-400 focus:border-black outline-none" required>
+                    
+                </div>
+                <div class="relative">
+                    <label class="block text-sm font-medium text-[#808080]">Gender</label>
+                    <select id="gender" class="lg:w-full sm:w-3/4 md:w-2/3 p-2 border-b-2 border-gray-400 focus:border-black outline-none" required>
+                        <option value="">Select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="relative">
+                    <label class="block text-sm font-medium text-gray-600">Country</label>
+                    <select id="country" class="w-full p-2 border-b-2 border-gray-400 focus:border-black outline-none">
+                        <option value="">Select Country</option>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="India">India</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                </div>
+                <div class="relative mt-4">
+                    <label class="block text-sm font-medium text-gray-600">State</label>         
+                    <select id="state" class="w-full p-2 border-b-2 border-gray-400 focus:border-black outline-none" disabled>
+                        <option value="">Select State</option>
+                    </select>
+                </div>
+                <div class="relative mt-4">
+                    <label class="block text-sm font-medium text-gray-600">City</label>
+                    <select id="city" class="w-full p-2 border-b-2 border-gray-400 focus:border-black outline-none" disabled>
+                        <option value="">Select City</option>
+                    </select>
+                </div>
+            
+                <div class="relative mt-4">
+                    <label class="block text-sm font-medium text-[#808080]">Address</label>
+                    <textarea id="address" class="w-full p-2 border-b-2 border-gray-400 focus:border-black outline-none h-10 resize-none overflow-hidden"></textarea>
+                    <div id="addressCounter"
+        class="absolute right-3 bottom-2 text-gray-500 text-xs bg-white px-1 rounded-md">
+        0/200
+        </div>
+                </div>
+                <div class="relative mt-4">
+                    <label class="block text-sm font-medium text-[#808080]">Message</label>
+                    <textarea id="message" class="w-full p-2 border-b-2 border-gray-400 focus:border-black outline-none h-10 resize-none overflow-hidden"></textarea>
+                    <span class="validation-icon absolute right-[-25px] top-1/2 -translate-y-1/2 text-xl"></span>
+                    <div id="messageCounter"
+        class="absolute right-3 bottom-2 text-gray-500 text-xs bg-white px-1 rounded-md">
+        0/200
+    </div>
+                </div>
+                
+            
+            <div class="relative mt-4">
+                <label class="block text-sm font-medium text-[#808080] pb-2">Request a Counseling Session</label>
+                <div class="flex space-x-4">
+                    <label><input type="radio" name="counseling" value="yes" required> Yes</label>
+                    <label><input type="radio" name="counseling" value="no" required> No</label>
+                </div>
+            </div>
+            <div class="relative mt-4">
+                <label class="block text-sm font-medium text-[#808080] pb-2">Upload Your CV/Resume</label>
+                <div class="relative w-full md:w-3/4 sm:w-full">
+                    <input type="file" id="cv" accept=".doc,.docx,.pdf,.txt,.rtf" class="hidden" onchange="updateFileName()">
+                    <label for="cv" class="w-full p-3 border-b-2 border-gray-400 focus:border-black outline-none cursor-pointer flex justify-between items-center">
+                        <div class="flex items-center space-x-2" id="fileName">
+                            <img src="Vector.svg" alt="" class="">
+                            <span class="text-gray-500">Choose file</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+            
+            <div class="relative mt-4">
+                <label class="flex items-center">
+                    <input type="checkbox" id="terms" required>
+                    <span class="ml-2 text-sm font-medium text-[#808080]">Agree terms and conditions</span>
+                </label>
+            </div>
+            <div class="relative mt-4 flex justify-between flex-wrap lg:p-6 gap-6">
+                <button type="submit" class="w-40 h-auto bg-[#B58569] text-white px-6 py-2 rounded hover:bg-gray-400">Submit</button>
+                <button type="button" id="clearForm" class="w-40 h-auto bg-[#B58569] text-white px-6 py-2 rounded hover:bg-gray-400">Clear Form</button>
+            </div>
+        </form>
+        <!-- Custom Toast Notification -->
+<div id="customAlert" class="hidden fixed top-5 left-1/2 transform -translate-x-1/2 bg-[#B58569] text-white text-center px-6 py-3 w-[90%] md:w-[400px] rounded-lg shadow-lg transition-opacity duration-500 opacity-0">
+    Form submitted successfully!
+</div>
+
+    </div>
+    <script>
+        function updateCounter(field, counterId, maxLength) {
+    const counter = document.getElementById(counterId);
+    counter.textContent = `${field.value.length}/${maxLength}`;
+}
+
+// Attach event listeners for live character count
+document.getElementById("address").addEventListener("input", function () {
+    updateCounter(this, "addressCounter", 200);
+});
+document.getElementById("message").addEventListener("input", function () {
+    updateCounter(this, "messageCounter", 200);
+});
+
+        function showCustomAlert(message) {
+    const alertBox = document.getElementById("customAlert");
+    alertBox.textContent = message;
+    alertBox.classList.remove("hidden", "opacity-0");
+    alertBox.classList.add("opacity-100");
+
+    // Hide alert after 3 seconds
+    setTimeout(() => {
+        alertBox.classList.add("opacity-0");
+        setTimeout(() => alertBox.classList.add("hidden"), 500); // Extra delay for smooth transition
+    }, 3000);
+}
+         const locationData = {
+            "USA": {
+                "California": ["Los Angeles", "San Francisco", "San Diego"],
+                "Texas": ["Houston", "Austin", "Dallas"]
+            },
+            "Canada": {
+                "Ontario": ["Toronto", "Ottawa"],
+                "British Columbia": ["Vancouver", "Victoria"]
+            },
+            "India": {
+                "Andhra Pradesh": ["Visakhapatnam", "Vijayawada"],
+                "Arunachal Pradesh": ["Itanagar", "Naharlagun"],
+                "Assam": ["Guwahati", "Dibrugarh"],
+                "Bihar": ["Patna", "Gaya"],
+                "Chhattisgarh": ["Raipur", "Bhilai"],
+                "Goa": ["Panaji", "Margao"],
+                "Gujarat": ["Ahmedabad", "Surat"],
+                "Haryana": ["Chandigarh", "Faridabad"],
+                "Himachal Pradesh": ["Shimla", "Manali"],
+                "Jharkhand": ["Ranchi", "Jamshedpur"],
+                "Karnataka": ["Bangalore", "Mysore"],
+                "Kerala": ["Thiruvananthapuram", "Kochi"],
+                "Madhya Pradesh": ["Bhopal", "Indore"],
+                "Maharashtra": ["Mumbai", "Pune"],
+                "Manipur": ["Imphal"],
+                "Meghalaya": ["Shillong"],
+                "Mizoram": ["Aizawl"],
+                "Nagaland": ["Kohima", "Dimapur"],
+                "Odisha": ["Bhubaneswar", "Cuttack", "Rourkela", "Sambalpur", "Berhampur", "Puri", "Balasore", "Baripada", "Angul", "Dhenkanal", "Jharsuguda", "Jajpur", "Kendrapara", "Rayagada", "Koraput", "Bhadrak", "Keonjhar", "Bargarh"],
+                "Punjab": ["Ludhiana", "Amritsar"],
+                "Rajasthan": ["Jaipur", "Jodhpur", "Udaipur", "Kota", "Bikaner", "Ajmer", "Alwar", "Bhilwara", "Sikar", "Pali", "Sri Ganganagar", "Chittorgarh", "Tonk", "Bundi", "Dausa", "Nagaur", "Jaisalmer", "Barmer", "Jhunjhunu", "Hanumangarh", "Churu", "Dholpur", "Karauli", "Sawai Madhopur", "Banswara", "Jhalawar", "Pratapgarh", "Rajsamand"],
+                "Sikkim": ["Gangtok"],
+                "Tamil Nadu": ["Chennai", "Coimbatore"],
+                "Telangana": ["Hyderabad", "Warangal"],
+                "Tripura": ["Agartala"],
+                "Uttar Pradesh": ["Lucknow", "Varanasi"],
+                "Uttarakhand": ["Dehradun", "Haridwar"],
+                "West Bengal": ["Kolkata", "Darjeeling"]
+            },
+            "Australia": {
+                "New South Wales": ["Sydney", "Newcastle"],
+                "Victoria": ["Melbourne", "Geelong"]
+            }
+        };
+
+        const countrySelect = document.getElementById("country");
+        const stateSelect = document.getElementById("state");
+        const citySelect = document.getElementById("city");
+
+        countrySelect.addEventListener("change", function () {
+            stateSelect.innerHTML = '<option value="">Select State</option>';
+            citySelect.innerHTML = '<option value="">Select City</option>';
+            citySelect.disabled = true;
+            
+            if (this.value) {
+                stateSelect.disabled = false;
+                Object.keys(locationData[this.value]).forEach(state => {
+                    let option = new Option(state, state);
+                    stateSelect.add(option);
+                });
+            } else {
+                stateSelect.disabled = true;
+                citySelect.disabled = true;
+            }
+        });
+
+        stateSelect.addEventListener("change", function () {
+            citySelect.innerHTML = '<option value="">Select City</option>';
+            if (this.value) {
+                citySelect.disabled = false;
+                locationData[countrySelect.value][this.value].forEach(city => {
+                    let option = new Option(city, city);
+                    citySelect.add(option);
+                });
+            } else {
+                citySelect.disabled = true;
+            }
+        });
+      const dobInput = document.getElementById("dob");
+const currentYear = new Date().getFullYear();
+dobInput.min = "1980-01-01";
+dobInput.max = `${currentYear}-12-31`;
+
+function updateFileName() {
+    const input = document.getElementById('cv');
+    const fileName = document.getElementById('fileName');
+    fileName.textContent = input.files.length > 0 ? input.files[0].name : "Choose file";
+}
+
+// Real-time validation and error removal
+document.querySelectorAll("input, textarea, select").forEach((field) => {
+    field.addEventListener("input", () => {
+        if (field.value.trim() === "") {
+            removeError(field); // Remove error if field is empty again
+        } else {
+            validateField(field); // Otherwise, validate the field
+        }
+    });
+});
+
+// Function to remove error message
+function removeError(field) {
+    let errorSpan = field.parentNode.querySelector(".error-message");
+    if (errorSpan) {
+        errorSpan.remove(); // Remove error message when input is cleared
+    }
+}
+   
+// Function to clear validation icons and error messages
+function clearValidation() {
+    document.querySelectorAll(".validation-icon").forEach(icon => icon.remove());
+    document.querySelectorAll(".error-message").forEach(error => error.remove());
+    document.querySelectorAll("input, select, textarea").forEach(field => {
+        field.classList.remove("border-green-500", "border-red-500");
+    });
+}
+
+// Function to remove validation icon
+function removeValidationIcon(field) {
+    let iconSpan = field.parentNode.querySelector(".validation-icon");
+    if (iconSpan) {
+        iconSpan.remove(); // Remove icon when input is cleared
+    }
+}
+
+// Update validation function to clear icon on empty input
+function validateField(field) {
+    let error = "";
+    let value = field.value.trim();
+    let fieldWrapper = field.parentNode;
+
+    let iconSpan = fieldWrapper.querySelector(".validation-icon");
+    if (!iconSpan) {
+        iconSpan = document.createElement("span");
+        iconSpan.classList.add("validation-icon", "absolute", "top-1/2", "-translate-y-1/2", "text-xl", "right-[-25px]");
+        fieldWrapper.appendChild(iconSpan);
+    }
+
+    switch (field.id) {
+        case "fullname":
+            let nameWords = value.split(/\s+/).filter(word => word.length > 0);
+            if (!/^[A-Z][a-zA-Z\s]+$/.test(value)) {
+                error = "Full name must start with a capital letter and contain only letters and spaces.";
+            } else if (nameWords.length > 50) {
+                error = "Full name cannot exceed 50 words.";
+            }
+            break;
+        case "email":
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) error = "Invalid email format.";
+            break;
+        case "phone":
+            if (!/^[0-9]{10}$/.test(value)) error = "Phone number must be 10 digits.";
+            break;
+        case "dob":
+            let birthDate = new Date(value);
+            let birthYear = birthDate.getFullYear();
+            let age = new Date().getFullYear() - birthYear;
+            if (age < 18) error = "You must be at least 18 years old.";
+            else if (age > 80) error = "You must be under 80 years old.";
+            break;
+        case "address":
+            if (value.length < 5) error = "Address must be at least 5 characters long.";
+            break;
+        case "message":
+            if (value === "") {
+                error = "Message is required.";
+            } else if (value.length < 6) {
+                error = "Message must be at least 6 characters long.";
+            } else if (value.length > 200) {
+                error = "Message cannot exceed 200 characters.";
+            }
+            break;
+        case "cv":
+            if (field.files.length === 0) error = "Please upload a file.";
+            break;
+        case "terms":
+            if (!field.checked) error = "You must agree to the terms.";
+            break;
+        case "country":
+            if (value === "") error = "Please select a country.";
+            break;
+        case "state":
+            if (value === "") error = "Please select a state.";
+            break;
+        case "city":
+            if (value === "") error = "Please select a city.";
+            break;
+    }
+
+    let errorSpan = fieldWrapper.querySelector(".error-message");
+    if (!errorSpan && error) {
+        errorSpan = document.createElement("span");
+        errorSpan.classList.add("error-message", "text-red-500", "text-sm", "mt-1", "block");
+        fieldWrapper.appendChild(errorSpan);
+    }
+
+    if (error) {
+        errorSpan.textContent = error;
+        iconSpan.textContent = "✗";
+        iconSpan.classList.add("text-red-500");
+        iconSpan.classList.remove("text-green-500");
+    } else {
+        removeError(field);
+        if (value.length > 0) {
+            iconSpan.textContent = "✓";
+            iconSpan.classList.add("text-green-500");
+            iconSpan.classList.remove("text-red-500");
+        } else {
+            removeValidationIcon(field); // Remove validation icon if input is empty
+        }
+    }
+
+    return error === ""; // Returns true if no error
+}
+
+// Listen for input changes to remove validation icon when empty
+document.querySelectorAll("input, textarea, select").forEach((field) => {
+    field.addEventListener("input", () => {
+        if (field.value.trim() === "") {
+            removeValidationIcon(field); // Remove validation icon
+            removeError(field); // Remove error if field is empty
+        } else {
+            validateField(field); // Validate the field otherwise
+        }
+    });
+});
+
+// Ensure validation icons are cleared on form reset
+document.getElementById("contactForm").addEventListener("reset", function () {
+    clearValidation();
+    document.querySelectorAll(".validation-icon").forEach(icon => icon.remove());
+});
+
+
+// Function to validate the entire form before submission
+function validateForm() {
+    return new Promise((resolve, reject) => {
+        const requiredFields = ["fullname", "email", "phone", "dob", "gender", "city", "state", "country", "address", "message"];
+        let hasError = false;
+
+        requiredFields.forEach((id) => {
+            const field = document.getElementById(id);
+            if (!validateField(field)) hasError = true;
+        });
+        
+        const cv = document.getElementById("cv");
+        if (!validateField(cv)) hasError = true;
+
+        const terms = document.getElementById("terms");
+        if (!validateField(terms)) hasError = true;
+
+        if (hasError) {
+            reject("Please fill all fields correctly!");
+        } else {
+            resolve();
+        }
+    });
+}
+
+// Function to simulate form submission
+function submitForm() {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve("Form submitted successfully!\nThank you....");
+        }, 1000);
+    });
+}
+
+// Submit button event listener
+document.getElementById("contactForm").addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    validateForm()
+        .then(submitForm)
+        .then((message) => {
+            showCustomAlert(message);
+
+            // Reset the form
+            document.getElementById("contactForm").reset();
+            document.getElementById("fileName").innerHTML = `
+                <img src="Vector.svg" alt="">
+                <span class="text-gray-500">Choose file</span>
+            `;
+            clearValidation();
+            document.querySelectorAll(".error-message").forEach((el) => el.remove());
+
+            // Reset counters
+            document.getElementById("addressCounter").textContent = "0/200";
+            document.getElementById("messageCounter").textContent = "0/200";
+
+            // Disable State and City after reset
+            stateSelect.innerHTML = '<option value="">Select State</option>';
+            citySelect.innerHTML = '<option value="">Select City</option>';
+            stateSelect.disabled = true;
+            citySelect.disabled = true;
+        })
+        .catch(() => {
+            // Errors handled per field
+        });
+});
+
+// Clear button event listener
+document.getElementById("clearForm").addEventListener("click", function () {
+    document.getElementById("contactForm").reset();
+
+    // Reset file input text
+    document.getElementById("fileName").innerHTML = `
+        <img src="Vector.svg" alt="">
+        <span class="text-gray-500">Choose file</span>
+    `;
+
+    // Reset validation messages and icons
+    clearValidation();
+    document.querySelectorAll(".error-message").forEach((el) => el.remove());
+
+    // Reset counters
+    document.getElementById("addressCounter").textContent = "0/200";
+    document.getElementById("messageCounter").textContent = "0/200";
+
+    // Reset and disable State & City dropdowns
+    stateSelect.innerHTML = '<option value="">Select State</option>';
+    citySelect.innerHTML = '<option value="">Select City</option>';
+    stateSelect.disabled = true;
+    citySelect.disabled = true;
+});
+
+
+    </script>
+  </div>
+<br><br>
+<br><br>
+<div class="flex items-center justify-center">
+    <div class="w-full h-full lg:w-[1280px] lg:h-[607px] p-4">
+        <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.6506959204303!2d72.93032137541425!3d26.175503177094235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418c261937c551%3A0x65b7b9d2944ffeb4!2sCapsitech!5e0!3m2!1sen!2sin!4v1738008371461!5m2!1sen!2sin"
+      width="100%"
+      style="border: 0; height: 600px"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    </div>
+</div>
+<br><br>
+<br><br>
+<div class="text-center mb-20">
+<p class="text-5xl font-bold">Do you have any question</p>
+<br>
+<p>Our support team ready to help you,please contact with them</p>
+</div>
+<div class="max-w-3xl mx-auto text-center">
+<div>
+    <details class="group border-b border-(--border-btm-faq) pb-4 mb-4 mx-4">
+        <summary class="flex items-center justify-between cursor-pointer text-lg font-medium">
+            <h3
+                class="text-lg/[30px] font-medium mb-2 flex items-center text-start group-open:text-(--color-alternate-02)">
+                <img src="plus.png" alt="bullet01" class="w-5 h-5 mr-3 group-open:hidden">
+                <img src="minus.png" alt="bullet01" class="w-5 h-5 mr-3 hidden group-open:block">
+                How to contact with riders emergency?
+            </h3>
+        </summary>
+        <p class="text-(--color-feature) mt-2 pl-8 text-start leading-8">
+            Get your blood tests delivered at
+            the home collect a sample from
+            management
+            news. Get your blood tests delivered at the home collect a sample from management news. Get
+            your
+            blood tests delivered at the home collect a sample from management news. Get your blood
+            tests
+            delivered at the home.</p>
+    </details>
+</div>
+<div>
+    <details class="group border-b border-(--border-btm-faq) pb-4 mb-4 mx-4">
+        <summary class="flex items-center justify-between cursor-pointer text-lg font-medium">
+            <h3
+                class="text-lg/[30px] font-medium mb-2 flex items-center text-start group-open:text-(--color-alternate-02)">
+                <img src="plus.png" alt="bullet02" class="w-5 h-5 mr-3 group-open:hidden">
+                <img src="minus.png" alt="bullet02" class="w-5 h-5 mr-3 hidden group-open:block">
+                App installation failed, how to update system information?
+            </h3>
+        </summary>
+        <p class="text-(--color-feature) mt-2 pl-8 text-start leading-8">
+            Get your blood tests delivered at
+            the home collect a sample from
+            management
+            news. Get your blood tests delivered at the home collect a sample from management news. Get
+            your
+            blood tests delivered at the home collect a sample from management news. Get your blood
+            tests
+            delivered at the home.</p>
+    </details>
+</div>
+<div>
+    <details class="group border-b border-(--border-btm-faq) pb-4 mb-4 mx-4">
+        <summary class="flex items-center justify-between cursor-pointer text-lg font-medium">
+            <h3
+                class="text-lg/[30px] font-medium mb-2 flex items-center text-start group-open:text-(--color-alternate-02)">
+                <img src="plus.png" alt="bullet03" class="w-5 h-5 mr-3 group-open:hidden">
+                <img src="minus.png" alt="bullet03" class="w-5 h-5 mr-3 hidden group-open:block">
+                Website reponse taking time, how to improve?
+            </h3>
+        </summary>
+        <p class="text-(--color-feature) mt-2 pl-8 text-start leading-8">
+            Get your blood tests delivered at
+            the home collect a sample from
+            management
+            news. Get your blood tests delivered at the home collect a sample from management news. Get
+            your
+            blood tests delivered at the home collect a sample from management news. Get your blood
+            tests
+            delivered at the home.</p>
+    </details>
+</div>
+<div>
+    <details class="group border-b border-(--border-btm-faq) pb-4 mb-4 mx-4">
+        <summary class="flex items-center justify-between cursor-pointer text-lg font-medium">
+            <h3
+                class="text-lg/[30px] font-medium mb-2 flex items-center text-start group-open:text-(--color-alternate-02)">
+                <img src="plus.png" alt="bullet04" class="w-5 h-5 mr-3 group-open:hidden">
+                <img src="minus.png" alt="bullet04" class="w-5 h-5 mr-3 hidden group-open:block">
+                New update fixed all bug and issues
+            </h3>
+        </summary>
+        <p class="text-(--color-feature) mt-2 pl-8 text-start leading-8">
+            Get your blood tests delivered at
+            the home collect a sample from
+            management
+            news. Get your blood tests delivered at the home collect a sample from management news. Get
+            your
+            blood tests delivered at the home collect a sample from management news. Get your blood
+            tests
+            delivered at the home.</p>
+    </details>
+</div>
+</div>
+<br><br>
+<div class="text-center mt-20 mb-10">
+<p class="text-5xl font-bold">Subscribe to Our Newsletter<br>for Design insights</p>
+</div>
+<div class="text-center mb-10">
+<p class="text-2xl text-gray-700 font-semibold">Be the first to discover trends,inspiration and special offer as we<br>bring the world of design directly to your inbox</p>
+</div>
+<br><br>
+<!-- <div class="flex items-center justify-center container mx-auto mb-20">
+  <div class="flex items-center border-2 border-gray-300 lg:w-3/5 lg:h-16 md:flex-row sm:flex-row shadow">
+      <img src="maillast.svg" alt="Email" class="w-4 ml-4 h-4 mr-2"/>
+      <input type="email" class="flex-grow p-2 border-none outline-none" placeholder="Enter your email address">
+      <button type="submit" class="bg-[#B58569] text-white p-3 rounded-lg w-30 h-auto hover:bg-red-200 mr-2">
+        Subscribe
+      </button>
+    </div>
+  </div> -->
+  <div class="flex items-center justify-center container mx-auto mb-20">
+    <div class="flex flex-wrap items-center border-2 border-gray-300 w-3/5 p-2 shadow-lg rounded-lg">
+      <img src="maillast.svg" alt="Email" class="w-5 h-5 mx-2"/>
+      <input type="email" 
+             class="flex-grow p-2 bg-transparent text-xl border-none outline-none text-gray-700 placeholder-gray-400 w-full sm:w-auto"
+             placeholder="Enter your email address">
+      <button type="submit" 
+              class="bg-[#B58569] text-white text-xl px-5 py-2 mt-2 sm:mt-0 rounded hover:bg-gray-400 transition-all duration-300 w-52 mx-auto">
+        Subscribe
+      </button>
+    </div>
+  </div>
+  
+  <div class="flex items-center lg:justify-evenly md:justify-center sm:justify-start justify-center container mx-auto mb-16 mt-28">
+    <div class="text-justify flex items-center justify-between gap-10 bg-[#5A8251] p-10 rounded-3xl sm:flex-row flex-col w-10/12 h-auto lg:w-[1220px] lg:h-[300px]">
+        <div class="text-white">
+            <t class="text-4xl font-bold">Grab Your 20% Discount</t><br><br><t>Lorem ipsum dolor sit, amet consectetur adipisicing elit.felistortor<br>amet quam eget nunc.Vivera tincidunt magna nisl.</t></h1>
+        </div>
+        <br>
+        <div>
+            <button class="h-12 w-40 bg-gray-400 m-2 text-white font-bold rounded-xl hover:bg-slate-400">
+                Shopping Now
+              </button>
+        </div>
+    </div>
+</div>
+<div class="flex items-center justify-center text-center bg-[#F3F3F3] container mx-auto mt-32 mb-20">
+<div class="w-full h-auto p-10">
+    <div class="mt-10 pb-10">
+        <h2 class="text-2xl font-bold">Over 32+ companies Trusted on us</h2>
+    </div>
+    <div class="flex flex-wrap items-center lg:justify-evenly justify-center mb-10 gap-10">
+    <h1 class=""><img src="Layer 1.svg" alt=""></h1>
+    <h1 class=""><img src="icrave 1.svg" alt=""></h1>
+    <h1 class=""><img src="uber 1.svg" alt=""></h1>
+    <h1 class=""><img src="planforce - Copy.svg" alt=""></h1>
+    </div>
+</div>
+</div>
+<br><br>
+<footer class="bg-white">
+    <div class="container mx-auto px-6 py-10 max-w-screen-xl">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 lg:gap-16 text-gray-700 text-center sm:text-left">
+            <!-- Brand Section -->
+            <div class="flex flex-col items-center sm:items-start">
+                <h1 class="text-4xl lg:text-5xl font-serif hover:cursor-pointer">
+                    <span class="text-black">INTERIOR</span><br><span class="text-[#B58569]">DESIGN</span>
+                </h1>
+                <p class="text-[#6F6F6F] mt-4 hover:cursor-pointer hover:text-[#B58569]">
+                    170 East 70th Street<br>New York, NY N10021
+                </p>
+                    <br>
+                <!-- Responsive Input and Button -->
+                <div class="flex flex-col lg:flex-row items-center gap-3 mt-6 w-full max-w-lg">
+                    <input type="email" class="border p-3 rounded-md lg:w-fit w-full focus:outline-none focus:ring-2 focus:ring-[#B58569] text-lg border-[#916AE3]" placeholder="user@example.com">
+                    <button class="h-12 w-full lg:w-auto px-6 bg-[#B58569] text-white font-bold rounded hover:bg-gray-400 transition duration-300">
+                        SUBSCRIBE
+                    </button>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="flex flex-col items-center sm:items-start lg:pl-24 lg:ml-6">
+                <h2 class="text-xl font-bold hover:cursor-pointer hover:font-extrabold">Quick Links</h2>
+                <ul class="space-y-5 mt-6">
+                    <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Products</a></li>
+                    <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Category</a></li>
+                    <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Purchases</a></li>
+                    <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Store</a></li>
+                </ul>
+            </div>
+
+            <!-- The Company -->
+            <div class="flex flex-col items-center sm:items-start lg:pl-12">
+                <h2 class="text-xl font-bold hover:cursor-pointer hover:font-extrabold">The Company</h2>
+                <ul class="space-y-5 mt-6">
+                    <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">About</a></li>
+                    <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources -->
+            <div class="flex flex-col items-center sm:items-start">
+                <h2 class="text-xl font-bold hover:cursor-pointer hover:font-extrabold">Resources</h2>
+                <ul class="space-y-5 mt-6">
+                    <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Online Payment</a></li>
+                    <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-[#B58569] hover:cursor-pointer text-[#6F6F6F]">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!-- Footer Bottom -->
+    <div class="bg-[#B58569] text-white py-6">
+        <div class="container mx-auto max-w-screen-xl flex flex-col sm:flex-row items-center justify-between px-6">
+            <p class="text-sm text-center sm:text-left hover:cursor-pointer hover:text-black">2022® INTERIOR DESIGN .All right reserved</p>
+            <div class="flex space-x-6 mt-4 sm:mt-0">
+                <a href="https://www.twitter.com/" class="hover:opacity-75 transition">
+                    <img src="Twitter.svg" alt="Twitter" class="w-6 h-6 hover:cursor-pointer">
+                </a>
+                <a href="https://www.instagram.com/capsitech_limited/" class="hover:opacity-75 transition">
+                    <img src="instagram.svg" alt="Instagram" class="w-6 h-6 hover:cursor-pointer">
+                </a>
+                <a href="https://www.facebook.com/Capsitechltd/" class="hover:opacity-75 transition">
+                    <img src="face.svg" alt="Facebook" class="w-6 h-6 hover:cursor-pointer">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
